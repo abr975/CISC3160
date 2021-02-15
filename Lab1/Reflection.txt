@@ -1,0 +1,9 @@
+For the reporting problem I chose to use python. The reason that I chose python language was because of the pandas library. Ive used this library before in CISC3440 Machine Learning
+so I have some familiarity using it. It is real easy to work with csv files with the pd.read_csv and .sort_values. 
+
+For the math calculation problem I chose to use javascript. Javascripts .map function was the reason that I chose to use javascript for this challenge since we are working with an 
+array and using a formula on it we can use the .map function to return a new array with the formula for the conversions. Math.random is another feature of javascript that helped 
+complete this task since we needed to predict weather for the next month and we can use that help get a prediction.
+
+For the web development problem I chose to use the combination of javascript,html,css. I chose this because we needed to get something from an API and display it. Javascript has async 
+functions and fetch which allow us to work with APIs. We needed to display this content to the screen in a nice way after so that is where both HTML and CSS come in handy. 
