@@ -362,10 +362,10 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "vowel.l"
+#line 1 "vowelOrPrime.l"
 #define INITIAL 0
 /* Lex Program that checks if a letter is either a consonant or a vowel, and if a number is either prime or nonprime*/
-#line 3 "vowel.l"
+#line 3 "vowelOrPrime.l"
 /* Definition Section */
 #include <stdio.h>
 #include <stdlib.h>
@@ -524,9 +524,10 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 11 "vowel.l"
+#line 11 "vowelOrPrime.l"
 
-#line 530 "lex.yy.c"
+
+#line 531 "lex.yy.c"
 
 	if ( yy_init )
 		{
@@ -611,17 +612,17 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 12 "vowel.l"
+#line 13 "vowelOrPrime.l"
 {printf("is a VOWEL"); vowel++;}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 13 "vowel.l"
+#line 14 "vowelOrPrime.l"
 {printf("Is a Consonant"); cons++;}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 14 "vowel.l"
+#line 16 "vowelOrPrime.l"
 {c=atoi(yytext);
         if(c==2)
             {
@@ -647,10 +648,10 @@ YY_RULE_SETUP
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 36 "vowel.l"
+#line 38 "vowelOrPrime.l"
 ECHO;
 	YY_BREAK
-#line 654 "lex.yy.c"
+#line 655 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1536,7 +1537,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 36 "vowel.l"
+#line 38 "vowelOrPrime.l"
 
 /*Driver Code */
 int yywrap()
@@ -1547,5 +1548,4 @@ main()
 {
 printf("Enter characters or numbers \n");
 yylex();
-printf("vowel=%d Cosonant=%d");
 }

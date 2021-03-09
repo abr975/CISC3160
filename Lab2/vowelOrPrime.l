@@ -45,5 +45,4 @@ main()
 {
 printf("Enter characters or numbers \n");
 yylex();
-printf("vowel=%d Cosonant=%d");
 }
