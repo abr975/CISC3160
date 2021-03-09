@@ -1,5 +1,13 @@
-The utilities that I used for lab 2 were flex and bison. I chose to use these since I am on windows and the set up for it on windows seemed to be the quickest way. I had to download both flex and bison off their websites, and had to set up a environmental variable for the path. Then I was good to go for creating my language.
+The utilities that I used for lab 2 were flex and bison. 
+I chose to use these since I am on windows and the set up for it on windows seemed to be the quickest way.
+I had to download both flex and bison off their websites, and I had to set up a environmental variable for the path.
+Then I was good to go for creating my language.
 
-My IDE of choice was Codeblocks since I had used this with C++ in a previous class, and I saw I was going to be using the gcc which I was familiar with. So this made using the terminal enviorment easy since it was commands that I have used before. 
+My IDE of choice was Codeblocks since I had used this with C++ in a previous class,
+and I saw I was going to be using the gcc which I was familiar with. 
+So this made using the terminal enviorment easy since it was commands that I have used before. 
 
-The Language that I chose to create so far is a basic language that can do two things. This language can determine if a char input is either a consonant or a vowel in the alphabet. Also it can determine if a number that you input is a prime number or a nonprime number. This language that I am creating is a functional language.
+The Language that I chose to create so far is a basic language that can do two things.
+This language can determine if a char input is either a consonant or a vowel in the alphabet.
+Also it can determine if a number that you input is a prime number or a nonprime number. 
+This language that I am creating is a functional language.
