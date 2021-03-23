@@ -1,0 +1,16 @@
+For this Lab excerise I was using flex and bison, and ran into
+a bug that was not giving any sort of error code and this took me
+days to figure out but I eventually did. When I installed my flex and 
+bison i was in C:User/ProgramFiles(x86)/GnuWin32 and for some reason
+this caused a bug when I eventually changed it to C:User/GnuWin32 this
+managed to fix the bug and I could get up and running with my code.
+
+When I was finally able to get it working I created a calculator.l 
+file I gave it the rules of a calculator that can have variables a-z and store
+values with them. This has the basic + , - , *.
+In Calculator.y I have the logic for + - * and the Calculator.
+
+To compile I used
+bison -y -d Calculator.y
+flex calculator.l
+gcc y.tab.c lex.yy.c
